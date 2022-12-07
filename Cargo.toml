@@ -1,0 +1,11 @@
+[package]
+name = "phnx-candefs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = "0.2.7"
+concat-arrays = "0.1.2"
+
+[dev-dependencies]
+bxcan = "0.7.0"
