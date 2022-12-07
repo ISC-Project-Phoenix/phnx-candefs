@@ -2,6 +2,7 @@
 name = "phnx-candefs"
 version = "0.1.0"
 edition = "2021"
+authors = ["Andrew Ealovega <Andrew@Ealovega.dev>"]
 
 [dependencies]
 embedded-hal = "0.2.7"

@@ -3,6 +3,9 @@
 This crate contains common code for converting CAN frames to defined CAN structures for Project Phoenix.
 
 ```rust
+use phnx_candefs::*;
+use bxcan::Id::Extended;
+
 // Create a frame for the bus, generic over Frame implementer
 let frame: bxcan::Frame = EncoderCount {
 count: 20,
